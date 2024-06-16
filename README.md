@@ -1,15 +1,16 @@
-# 註冊登入系統
+# 登入系統
 
-這是一個基於PHP、MySQL的用戶註冊和登錄系統。此系統包括以下功能：
+這是一個基於PHP和MySQL構建的用戶註冊和登入系統。此系統包括以下功能：
 - 用戶註冊
-- 用戶登錄
+- 用戶登入
 - 用戶登出
+- 記住我功能
 - 活動日誌記錄（包括IP地址、瀏覽器信息等）
 
 ## 項目結構
 
 ```
-backend
+project_folder
 │
 ├── /css
 │   └── styles.css
@@ -32,7 +33,7 @@ backend
 
 1. **克隆倉庫**
     ```bash
-    git clone https://github.com/yourusername/backend.git
+    git clone https://github.com/xAL6/backend.git
     ```
 
 2. **導入數據庫**
@@ -90,6 +91,7 @@ backend
 
 4. **登錄用戶**
     - 打開登錄頁面，輸入帳號和密碼進行登錄。
+    - 選擇“記住我”選項以保持登錄狀態。
 
 5. **查看儀表板**
     - 登錄成功後，將重定向到儀表板頁面。
