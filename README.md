@@ -10,7 +10,7 @@
 ## 項目結構
 
 ```
-project_folder
+backend
 │
 ├── /css
 │   └── styles.css
